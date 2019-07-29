@@ -1,7 +1,7 @@
 <circuit>
 <CurrentPage>0</CurrentPage>
 <page 0>
-<PageViewport>-381.029,98.1613,-136.945,-22.4849</PageViewport>
+<PageViewport>-429.803,89.9354,-185.719,-30.7108</PageViewport>
 <gate>
 <ID>770</ID>
 <type>AA_AND2</type>
@@ -11740,7 +11740,7 @@
 <GID>413</GID>
 <name>IN_0</name></connection></hsegment></shape></wire></page 0>
 <page 1>
-<PageViewport>684.486,106.519,1317.1,-206.171</PageViewport>
+<PageViewport>684.485,106.519,1317.1,-206.171</PageViewport>
 <gate>
 <ID>197</ID>
 <type>AE_DFF_LOW</type>
@@ -11909,14 +11909,6 @@
 <gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam></gate>
 <gate>
-<ID>899</ID>
-<type>GA_LED</type>
-<position>539,57</position>
-<input>
-<ID>N_in2</ID>648 </input>
-<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
-<gparam>angle 0.0</gparam></gate>
-<gate>
 <ID>513</ID>
 <type>AE_DFF_LOW</type>
 <position>578,2.5</position>
@@ -11934,19 +11926,19 @@
 <lparam>SYNC_LOAD true</lparam>
 <lparam>SYNC_SET false</lparam></gate>
 <gate>
+<ID>899</ID>
+<type>GA_LED</type>
+<position>539,57</position>
+<input>
+<ID>N_in2</ID>648 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
+<gate>
 <ID>900</ID>
 <type>GA_LED</type>
 <position>569.5,57</position>
 <input>
 <ID>N_in2</ID>649 </input>
-<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
-<gparam>angle 0.0</gparam></gate>
-<gate>
-<ID>901</ID>
-<type>GA_LED</type>
-<position>601,57</position>
-<input>
-<ID>N_in2</ID>650 </input>
 <gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
 <gparam>angle 0.0</gparam></gate>
 <gate>
@@ -11966,6 +11958,14 @@
 <lparam>SYNC_CLEAR false</lparam>
 <lparam>SYNC_LOAD true</lparam>
 <lparam>SYNC_SET false</lparam></gate>
+<gate>
+<ID>901</ID>
+<type>GA_LED</type>
+<position>601,57</position>
+<input>
+<ID>N_in2</ID>650 </input>
+<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam></gate>
 <gate>
 <ID>517</ID>
 <type>AE_DFF_LOW</type>
@@ -12204,18 +12204,6 @@
 <gparam>angle 90</gparam>
 <lparam>INPUT_BITS 1</lparam></gate>
 <gate>
-<ID>553</ID>
-<type>BA_TRI_STATE</type>
-<position>570,22</position>
-<input>
-<ID>ENABLE_0</ID>651 </input>
-<input>
-<ID>IN_0</ID>396 </input>
-<output>
-<ID>OUT_0</ID>649 </output>
-<gparam>angle 90</gparam>
-<lparam>INPUT_BITS 1</lparam></gate>
-<gate>
 <ID>167</ID>
 <type>AI_XOR2</type>
 <position>791.5,-15</position>
@@ -12228,15 +12216,15 @@
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>554</ID>
+<ID>553</ID>
 <type>BA_TRI_STATE</type>
-<position>601.5,22</position>
+<position>570,22</position>
 <input>
 <ID>ENABLE_0</ID>651 </input>
 <input>
-<ID>IN_0</ID>397 </input>
+<ID>IN_0</ID>396 </input>
 <output>
-<ID>OUT_0</ID>650 </output>
+<ID>OUT_0</ID>649 </output>
 <gparam>angle 90</gparam>
 <lparam>INPUT_BITS 1</lparam></gate>
 <gate>
@@ -12252,15 +12240,15 @@
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>555</ID>
+<ID>554</ID>
 <type>BA_TRI_STATE</type>
-<position>476.5,-46.5</position>
+<position>601.5,22</position>
 <input>
-<ID>ENABLE_0</ID>388 </input>
+<ID>ENABLE_0</ID>651 </input>
 <input>
-<ID>IN_0</ID>356 </input>
+<ID>IN_0</ID>397 </input>
 <output>
-<ID>OUT_0</ID>389 </output>
+<ID>OUT_0</ID>650 </output>
 <gparam>angle 90</gparam>
 <lparam>INPUT_BITS 1</lparam></gate>
 <gate>
@@ -12276,15 +12264,15 @@
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>556</ID>
+<ID>555</ID>
 <type>BA_TRI_STATE</type>
-<position>507,-46</position>
+<position>476.5,-46.5</position>
 <input>
 <ID>ENABLE_0</ID>388 </input>
 <input>
-<ID>IN_0</ID>357 </input>
+<ID>IN_0</ID>356 </input>
 <output>
-<ID>OUT_0</ID>390 </output>
+<ID>OUT_0</ID>389 </output>
 <gparam>angle 90</gparam>
 <lparam>INPUT_BITS 1</lparam></gate>
 <gate>
@@ -12300,15 +12288,15 @@
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
 <gate>
-<ID>557</ID>
+<ID>556</ID>
 <type>BA_TRI_STATE</type>
-<position>540.5,-46.5</position>
+<position>507,-46</position>
 <input>
 <ID>ENABLE_0</ID>388 </input>
 <input>
-<ID>IN_0</ID>358 </input>
+<ID>IN_0</ID>357 </input>
 <output>
-<ID>OUT_0</ID>391 </output>
+<ID>OUT_0</ID>390 </output>
 <gparam>angle 90</gparam>
 <lparam>INPUT_BITS 1</lparam></gate>
 <gate>
@@ -12321,6 +12309,18 @@
 <ID>IN_1</ID>107 </input>
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>557</ID>
+<type>BA_TRI_STATE</type>
+<position>540.5,-46.5</position>
+<input>
+<ID>ENABLE_0</ID>388 </input>
+<input>
+<ID>IN_0</ID>358 </input>
+<output>
+<ID>OUT_0</ID>391 </output>
+<gparam>angle 90</gparam>
+<lparam>INPUT_BITS 1</lparam></gate>
 <gate>
 <ID>558</ID>
 <type>BA_TRI_STATE</type>
@@ -12374,16 +12374,6 @@
 <lparam>OUTPUT_BITS 1</lparam>
 <lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
-<ID>568</ID>
-<type>AA_TOGGLE</type>
-<position>460.5,-46.5</position>
-<output>
-<ID>OUT_0</ID>388 </output>
-<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
-<gparam>angle 0.0</gparam>
-<lparam>OUTPUT_BITS 1</lparam>
-<lparam>OUTPUT_NUM 0</lparam></gate>
-<gate>
 <ID>182</ID>
 <type>AA_AND2</type>
 <position>780,-1.5</position>
@@ -12395,6 +12385,16 @@
 <ID>OUT</ID>129 </output>
 <gparam>angle 270</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>568</ID>
+<type>AA_TOGGLE</type>
+<position>460.5,-46.5</position>
+<output>
+<ID>OUT_0</ID>388 </output>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate>
 <gate>
 <ID>183</ID>
 <type>AA_AND2</type>
@@ -13689,7 +13689,7 @@
 <name>clock</name></connection>
 <intersection>-22.5 4</intersection></vsegment></shape></wire></page 1>
 <page 2>
-<PageViewport>33.2307,600.093,1257.23,-4.90692</PageViewport></page 2>
+<PageViewport>33.2304,600.093,1257.23,-4.90692</PageViewport></page 2>
 <page 3>
 <PageViewport>-0.00025201,384.093,1224,-220.907</PageViewport></page 3>
 <page 4>
